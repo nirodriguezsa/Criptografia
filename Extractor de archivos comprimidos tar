@@ -1,0 +1,46 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled8.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyN/+ocVoK5Zdh8KnLBen+xf",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nirodriguezsa/Criptografia/blob/master/Extractor%20de%20archivos%20comprimidos%20tar\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YvYpqiBudhvZ"
+      },
+      "source": [
+        "from os import system\n",
+        "\n",
+        "for a in range(0,1000):\n",
+        "    system('tar xvf Kerberos.tar')\n",
+        "    system('tar xvf Kerberos.zip')"
+      ],
+      "execution_count": 1,
+      "outputs": []
+    }
+  ]
+}
